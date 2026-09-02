@@ -7,17 +7,44 @@
 
 ---
 
-## 🚀 ONE-CLICK IMPLEMENTATION LAUNCHERS
+## 🚀 ONE-CLICK EXECUTABLE LAUNCHERS (.EXE)
 
-You can open and execute this implementation instantly using any of the following launch options:
+When you double click the executable file, a terminal window will open showing the local server IP address (`http://localhost:5000/`), which you can copy-paste into any web browser to open the full implementation:
 
-| Launch Method | Executable / File Link | Description & Features |
+| Executable / Launch Method | File Link | Description & Instructions |
 | :--- | :--- | :--- |
-| 🌐 **Interactive Web App Executable** | [**▶️ CLICK HERE TO OPEN `Launch_Implementation.html`**](Launch_Implementation.html) | **Instant Single-File Interactive UI.** Runs directly in your browser without requiring Node.js or MySQL setup. Includes live Case Management, NLP Document Redaction, Hearing Conflict Scheduler, Analytics Charts, and Precedent Search. |
-| ⚡ **Windows Batch Executable Script** | [**▶️ CLICK TO RUN `Run_Implementation.bat`**](Run_Implementation.bat) | **Automated Local Full-Stack Launcher.** Auto-installs npm dependencies, launches Node.js Express Backend & React Vite Frontend, and opens `http://localhost:5173`. |
-| 📂 **React Frontend Application** | [**📁 Browse `frontend/` Source**](frontend/) | Modern React 18 + Vite dashboard with role-based navigation and analytics views. |
-| ⚙️ **Express REST API Backend** | [**📁 Browse `backend/` Source**](backend/) | Node.js + Express REST API endpoints with JWT authentication and AI heuristics. |
-| 🗄️ **MySQL Database Schema** | [**📄 Browse `database/schema.sql`**](database/schema.sql) | Relational SQL schema, tables, and seeded landmark legal precedents. |
+| 💻 **Windows Executable (.exe)** | [**▶️ Run `Launch_Court_Platform.exe`**](Launch_Court_Platform.exe) | **Native Windows Executable.** Double-click to run. Displays `http://localhost:5000/` & `http://127.0.0.1:5000/` in terminal for copy-pasting into browser. |
+| ⚡ **Alternative Executable (.exe)** | [**▶️ Run `run_implementation.exe`**](run_implementation.exe) | Standalone executable runner for launching the local server. |
+| 🌐 **Interactive Web App Executable** | [**▶️ Open `Launch_Implementation.html`**](Launch_Implementation.html) | Direct single-file web app executable (Runs directly in browser without server). |
+| ⚡ **Windows Batch Launcher (.bat)** | [**▶️ Run `Run_Implementation.bat`**](Run_Implementation.bat) | Automated script to launch fullstack Node.js + Express + React local servers. |
+
+---
+
+## 🖥️ What Happens When You Click `Launch_Court_Platform.exe`
+
+1. A terminal console window opens displaying the following output:
+```text
+================================================================================
+          ⚖️ SMART COURT CASE MANAGEMENT & JUDICIAL ANALYTICS PLATFORM          
+                     Software Engineering Assignment Implementation             
+================================================================================
+
+  [✓] Local Web Server active and listening on port 5000!
+
+  ========================================================================
+  🚀 COPY AND PASTE THIS IP / URL INTO YOUR WEB BROWSER TO OPEN IMPLEMENTATION:
+
+     👉 http://localhost:5000/
+     👉 http://127.0.0.1:5000/
+  ========================================================================
+
+  ℹ️  The implementation browser window will also open automatically.
+  ℹ️  Keep this console window running while using the application.
+  ℹ️  Press Ctrl+C or close this window to exit the server.
+================================================================================
+```
+2. Copy and paste `http://localhost:5000/` into Chrome, Edge, or Firefox.
+3. The complete Smart Court Case Management & Judicial Analytics platform will open!
 
 ---
 
@@ -86,14 +113,3 @@ npm install
 npm run dev
 ```
 *Frontend runs on `http://localhost:5173`*
-
----
-
-## 🧪 Verification & Test Cases Matrix
-
-| Test ID | Module | Input / Action | Expected Result | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| **TC-01** | Case Management | Submit "State vs. John Doe", Criminal, Urgent | Case assigned ID, AI predicts disposition timeline (e.g. 10-14 days). | **PASSED** |
-| **TC-02** | Document AI | Upload text containing SSN & email | Document classified as "Criminal"; Email & SSN replaced with `[REDACTED]`. | **PASSED** |
-| **TC-03** | Scheduler | Schedule hearing for booked judge on same date/time | System triggers double-booking warning and proposes next free slot. | **PASSED** |
-| **TC-04** | Precedents | Search query "Privacy" | Returns *K.S. Puttaswamy v. Union of India* with high relevance score. | **PASSED** |
