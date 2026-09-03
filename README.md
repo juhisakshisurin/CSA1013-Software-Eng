@@ -10,7 +10,7 @@ Welcome to the **CSA1013 Software Engineering** course repository.
 
 ## 🚀 EXECUTABLE LAUNCHERS (.EXE) & ASSIGNMENT IMPLEMENTATION
 
-The assignment implementation for this course is located in the [`ASSIGNMENT/implementation`](ASSIGNMENT/implementation/) directory.
+The assignment implementation for this course is located **exclusively** in the [`ASSIGNMENT/implementation`](ASSIGNMENT/implementation/) directory.
 
 ### ⚖️ Smart Court Case Management & Judicial Analytics Platform
 
@@ -29,7 +29,7 @@ The assignment implementation for this course is located in the [`ASSIGNMENT/imp
 
 ## 💻 How to Run using `.exe`
 
-1. Double-click [`ASSIGNMENT/implementation/Launch_Court_Platform.exe`](ASSIGNMENT/implementation/Launch_Court_Platform.exe).
+1. Open [`ASSIGNMENT/implementation/`](ASSIGNMENT/implementation/) and double-click [`Launch_Court_Platform.exe`](ASSIGNMENT/implementation/Launch_Court_Platform.exe).
 2. The terminal window will start the local server and show:
    `[✓] Embedded Web Server active and listening on port 5000! 👉 http://localhost:5000/`
 3. Google Chrome browser will automatically launch and open `http://localhost:5000/`.

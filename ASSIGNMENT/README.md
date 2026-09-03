@@ -8,9 +8,13 @@
 
 ---
 
-## 🚀 ONE-CLICK EXECUTABLE LAUNCHERS (.EXE & .BAT)
+## 📂 Implementation Directory (`ASSIGNMENT/implementation/`)
 
-Click on the launchers below to open the application. Clicking will open a terminal window showing the listening port (`http://localhost:5000/`) and automatically launch Google Chrome browser to view the application:
+All software implementation files, backend, frontend, database schemas, and executable launchers are contained **exclusively inside the [`implementation/`](implementation/) directory**.
+
+### 🚀 ONE-CLICK EXECUTABLE LAUNCHERS (.EXE & .BAT)
+
+Click on any launcher in [`ASSIGNMENT/implementation/`](implementation/) to launch the app. Double-clicking will open a terminal window showing the listening port (`http://localhost:5000/`) and automatically open Google Chrome browser to view the application:
 
 | Executable / Launch Method | File Link | Description & Instructions |
 | :--- | :--- | :--- |
@@ -18,7 +22,7 @@ Click on the launchers below to open the application. Clicking will open a termi
 | ⚡ **Alternative Executable (.exe)** | [**▶️ Run `run_implementation.exe`**](implementation/run_implementation.exe) | Standalone executable runner for launching the local server. |
 | 🌐 **Interactive Web App Executable** | [**▶️ Open `Launch_Implementation.html`**](implementation/Launch_Implementation.html) | Direct interactive single-file web app running in Chrome browser. |
 | ⚡ **Windows Batch Launcher (.bat)** | [**▶️ Run `Run_Implementation.bat`**](implementation/Run_Implementation.bat) | Automated script to launch standalone web server or Node.js + Express + React servers. |
-| 📂 **Implementation Directory** | [**📁 View `implementation/` Folder**](implementation/) | Subdirectory containing all implementation source files and launchers. |
+| 📂 **Implementation Folder** | [**📁 Open `implementation/` Directory**](implementation/) | Subdirectory containing all codebase files, backend, frontend & launchers. |
 
 ---
 
