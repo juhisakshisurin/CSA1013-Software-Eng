@@ -4,25 +4,25 @@
 > **Author / Student Email:** `ashisansakshi@gmail.com`  
 > **Repository:** `CSA1013-Software-Eng`  
 > **Folder:** `ASSIGNMENT`  
-> **Implementation Directory:** [`ASSIGNMENT/implementation`](implementation/)  
+> **Implementation Directory:** [`ASSIGNMENT/IMPLEMENTATION`](IMPLEMENTATION/)  
 
 ---
 
-## 📂 Implementation Directory (`ASSIGNMENT/implementation/`)
+## 📂 Implementation Directory (`ASSIGNMENT/IMPLEMENTATION/`)
 
-All software implementation files, backend, frontend, database schemas, and executable launchers are contained **exclusively inside the [`implementation/`](implementation/) directory**.
+All software implementation files, backend, frontend, database schemas, and executable launchers are contained **exclusively inside the [`IMPLEMENTATION/`](IMPLEMENTATION/) directory**.
 
 ### 🚀 ONE-CLICK EXECUTABLE LAUNCHERS (.EXE & .BAT)
 
-Click on any launcher in [`ASSIGNMENT/implementation/`](implementation/) to launch the app. Double-clicking will open a terminal window showing the listening port (`http://localhost:5000/`) and automatically open Google Chrome browser to view the application:
+Click on any launcher in [`ASSIGNMENT/IMPLEMENTATION/`](IMPLEMENTATION/) to launch the app. Double-clicking will open a terminal window showing the listening port (`http://localhost:5000/`) and automatically open Google Chrome browser to view the application:
 
 | Executable / Launch Method | File Link | Description & Instructions |
 | :--- | :--- | :--- |
-| 💻 **Windows Web Server Executable (.exe)** | [**▶️ Run `Launch_Court_Platform.exe`**](implementation/Launch_Court_Platform.exe) | **Standalone Web Server Executable.** Displays active port in terminal and opens Chrome browser automatically. |
-| ⚡ **Alternative Executable (.exe)** | [**▶️ Run `run_implementation.exe`**](implementation/run_implementation.exe) | Standalone executable runner for launching the local server. |
-| 🌐 **Interactive Web App Executable** | [**▶️ Open `Launch_Implementation.html`**](implementation/Launch_Implementation.html) | Direct interactive single-file web app running in Chrome browser. |
-| ⚡ **Windows Batch Launcher (.bat)** | [**▶️ Run `Run_Implementation.bat`**](implementation/Run_Implementation.bat) | Automated script to launch standalone web server or Node.js + Express + React servers. |
-| 📂 **Implementation Folder** | [**📁 Open `implementation/` Directory**](implementation/) | Subdirectory containing all codebase files, backend, frontend & launchers. |
+| 💻 **Windows Web Server Executable (.exe)** | [**▶️ Run `Launch_Court_Platform.exe`**](IMPLEMENTATION/Launch_Court_Platform.exe) | **Standalone Web Server Executable.** Displays active port in terminal and opens Chrome browser automatically. |
+| ⚡ **Alternative Executable (.exe)** | [**▶️ Run `run_implementation.exe`**](IMPLEMENTATION/run_implementation.exe) | Standalone executable runner for launching the local server. |
+| 🌐 **Interactive Web App Executable** | [**▶️ Open `Launch_Implementation.html`**](IMPLEMENTATION/Launch_Implementation.html) | Direct interactive single-file web app running in Chrome browser. |
+| ⚡ **Windows Batch Launcher (.bat)** | [**▶️ Run `Run_Implementation.bat`**](IMPLEMENTATION/Run_Implementation.bat) | Automated script to launch standalone web server or Node.js + Express + React servers. |
+| 📂 **Implementation Folder** | [**📁 Open `IMPLEMENTATION/` Directory**](IMPLEMENTATION/) | Subdirectory containing all codebase files, backend, frontend & launchers. |
 
 ---
 

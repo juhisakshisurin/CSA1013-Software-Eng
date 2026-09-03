@@ -3,7 +3,7 @@
 > **CSA1013 Software Engineering — Implementation**  
 > **Author / Student Email:** `ashisansakshi@gmail.com`  
 > **Repository:** `CSA1013-Software-Eng`  
-> **Implementation Directory:** `ASSIGNMENT/implementation`  
+> **Implementation Directory:** `ASSIGNMENT/IMPLEMENTATION`  
 
 ---
 
@@ -63,7 +63,7 @@ When you click or double-click the executable files below, a terminal window wil
 ## 🏗️ Folder Structure
 
 ```
-ASSIGNMENT/implementation/
+ASSIGNMENT/IMPLEMENTATION/
 ├── Launch_Court_Platform.exe   # Standalone C Winsock Web Server Executable
 ├── run_implementation.exe      # Alternate Executable Launcher
 ├── Run_Implementation.bat      # Windows Batch Launcher Script
